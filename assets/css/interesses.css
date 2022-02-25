@@ -48,3 +48,10 @@
     font-size: 1.5rem;
     margin: 20px 0 0 0;
 }
+
+@media screen and (max-width:680px) {
+    .cont-interesses{
+        width: 90%;
+    }
+}
+

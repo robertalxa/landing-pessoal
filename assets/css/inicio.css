@@ -14,6 +14,7 @@
     height: 320px;
     border-radius: 100%;
     margin: 30px;
+    transition: 1s ease-in-out;
 }
 
 .infos-pessoais{
@@ -27,6 +28,7 @@
     font-size: 5rem;
     font-weight: bolder;
     margin: 0 0 20px 0;
+    transition: 1s ease-in-out;
 }
 
 .lista-pessoal{
@@ -41,3 +43,26 @@
     font-size: 1.2rem;
     width: 100%;
 }
+
+
+@media screen and (max-width:620px){
+    .inicio{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .img-face{
+        width: 230px;
+        height: 230px;
+    }
+    .titulo-nome-pessoal{
+        font-size: 3rem;
+    }
+    .item-lista-pessoal{
+        font-size: 1rem;
+    }
+    .infos-pessoais{
+        margin: 0;
+    }
+};

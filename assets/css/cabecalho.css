@@ -38,3 +38,41 @@
 .nav-lista-item:hover{
     transform: scale(1.1);
 }
+
+.drop-down{
+    display: none;
+    cursor: pointer;
+    width: 120px;
+}
+
+@media screen and (max-width:680px) {
+    .cabecalho{
+        width: 100%;
+        flex-direction: column;
+        margin: 0;
+        padding: 15px 0;
+        height: auto;
+        transition: 0.5s;
+    }
+    .logo{
+        display: none;
+    }
+    .nav-lista{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-top: 20px 0 0 0;
+    }
+    .nav-lista-item{
+        margin: 0;
+        -webkit-tap-highlight-color: transparent;
+        display: none;
+    }
+    .drop-down{
+        display: block;
+        transition: 1s;
+        color: #ffffff;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+};
