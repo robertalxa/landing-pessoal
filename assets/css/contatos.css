@@ -1,0 +1,54 @@
+.contatos{
+    width: 100%;
+    background: var(--roxoClaroAzulado);
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    padding: 50px 0;
+}
+
+.cont-contatos{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.titulo-contato{
+    text-align: center;
+    font-size: 3rem;
+    color: #ffffff;
+    margin: 0 0 30px 0;
+}
+
+.lista-contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item-contato{
+    margin: 20px;
+    border: 1px solid var(--roxoClaroAzulado);
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.item-contato:hover{
+    transform: scale(1.2);
+}
+
+.link-item-contato{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+.txt-lista-contato{
+    color: #ffffff;
+    font-size: 2rem;
+    margin: 0 0 0 20px;
+}
+
+.img-link-contato{
+    width: 80px;
+}

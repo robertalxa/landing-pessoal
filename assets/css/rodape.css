@@ -1,0 +1,10 @@
+.rodape{
+    width: 100%;
+    box-sizing: border-box;
+    background: black;
+    text-align: center;
+    color: var(--roxoClaroAzulado);
+    vertical-align: center;
+    font-size: 1.3rem;
+    padding: 50px;
+}

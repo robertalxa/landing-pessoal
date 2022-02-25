@@ -1,0 +1,10 @@
+:root{
+    --roxoClaroAzulado:#6f59b8;
+    --roxoClaro: #6e2991;
+    --roxoMedio: #4d0c6d;
+    --roxoEscuro: #29043c;
+}
+
+*, body{
+    font-family: Roboto;
+}

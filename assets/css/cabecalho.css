@@ -1,0 +1,40 @@
+.cabecalho{
+    align-items: center;
+    background: var(--roxoClaro);
+    box-sizing: border-box;
+    display: flex;
+    height: 64px;
+    justify-content: space-between;
+    padding: 10px 30px;
+    width: 100%;
+}
+
+.logo{
+    width: 120px;
+}
+
+.nav-lista{
+    display: flex;
+    list-style: none;
+}
+
+.nav-lista-item{
+    margin: 0 25px 0 0;
+    transition: 0.3s all ease-in-out;
+}
+
+.nav-lista-item:last-child{
+    margin: 0;
+}
+
+.nav-lista-item-link{
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-lista-item:hover{
+    transform: scale(1.1);
+}

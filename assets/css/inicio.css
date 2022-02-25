@@ -1,0 +1,43 @@
+.inicio{
+    align-items: center;
+    justify-content: center;
+    background: var(--roxoEscuro);
+    box-sizing: border-box;
+    display: flex;
+    height: calc(100vh - 64px);
+    padding: 60px 45px;
+    width: 100%;
+}
+
+.img-face{
+    width: 320px;
+    height: 320px;
+    border-radius: 100%;
+    margin: 30px;
+}
+
+.infos-pessoais{
+    text-align: center;
+    margin: 30px;
+    color: var(--roxoClaroAzulado);
+    
+}
+
+.titulo-nome-pessoal{
+    font-size: 5rem;
+    font-weight: bolder;
+    margin: 0 0 20px 0;
+}
+
+.lista-pessoal{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.item-lista-pessoal{
+    color: rgb(216, 177, 255);
+    font-size: 1.2rem;
+    width: 100%;
+}
